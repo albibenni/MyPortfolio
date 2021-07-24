@@ -12,21 +12,41 @@
 .hero{
     background-color: #1F2428;
     height: 80vh;
+    color: white;
 }
 .hero_content{
     width: 800px;
     margin: 0 auto;
+    padding: 3em;
 
 }
 .hero_content_intro{
     display: flex;
     color: white;
-    gap: 1em;
+    gap: 2em;
     justify-content: center;
     align-items: center;
 }
 .hero_name{
     font-size: 60px;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.hero_content_sub-section{
+
+}
+
+.h3_description{
+    font-size: 40px;
+    text-align: center;
+}
+
+.par_description{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+
 }
 
 #profile_pic{
